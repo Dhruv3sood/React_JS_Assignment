@@ -1,0 +1,11 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+ 
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
